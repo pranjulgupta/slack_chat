@@ -87,7 +87,7 @@ class Channels extends Component {
             return false
         }
         else {
-            // this.setState({errors:''})
+            
             return true
         }
     }
