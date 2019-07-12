@@ -7,7 +7,7 @@ class SidePanel extends Component {
     render() {
         const { currentUser } = this.props;
         return (
-            <Menu size="large" inverted fixed="left" vertical style={{ background: "rgb(83, 23, 85)", fontSize: "1.2rem" }}>
+            <Menu size="large" inverted fixed="left"  className="messages" vertical style={{ background: "rgb(83, 23, 85)", fontSize: "1.2rem" }}>
                 <UserPanel currentUser={currentUser} />
                 <Channels currentUser={currentUser} />
                 <DirectMessages currentUser={currentUser} />
